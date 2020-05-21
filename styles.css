@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	paddin: 0;
+}
+.contenido1, .contenido2, .contenido3{
+	background: #0F2027;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	color: white;
+	font-family: ubuntu;
+	font-size: 2em;
+}
+.contenido1{
+	border-spacing: 0;
+	border-bottom: 2px dashed white;
+}
+.contenido2{
+	background: #373B44;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border-spacing: 0;
+	border-bottom: 2px dashed white;
+}
+.contenido3{
+	background: #0f0c29;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border-spacing: 0;
+	border-bottom: 2px dashed white;
+}
+.TITULO{
+	margin-bottom: 30px;
+	font-size: 1.2em;
+	animation-name: pulse;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+.FormularionOTAS, .suma, .formulario{
+	padding: 10px 40px 10px 40px;
+	background-color: rgba(255,255,255,0.1);
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+	text-align: center;
+}
+.test{
+	margin: 0px 20px 0px 22px;
+	padding: 2px;
+}
+input{
+	border: none;
+	background-color: rgba(255,255,255,0.2);
+	color: white;
+	border-bottom: 1px solid rgba(0,0,0,0.8);
+	border-radius: 5px;
+	text-align: center;
+	width: 50px;
+	font-size: 0.7em;
+	padding: 4px;
+}
+.buton, .botonResul{
+	border: none;
+	border-radius: 10px;
+	background-color: #0F2027;
+	color: white;
+	margin: 10px;
+	padding: 5px 20px 5px 20px; 
+	font-size: 0.8em;
+
+}
+ .botonResul{
+ 	background-color: #373B44;
+ }
+.buton:hover{
+	animation-name: bu;
+	animation-duration: 2s;
+}
+.contenido44{
+	background: #3a6186; 
+	background: -webkit-linear-gradient(to right, #89253e, #3a6186);
+	background: linear-gradient(to right, #89253e, #3a6186);
+	color: white;
+	font-family: ubuntu;
+	border-spacing: 0;
+	height: 100vh;
+	text-align: center;
+	border-spacing: 0;
+
+}
+.ccontenido4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.Cronometro, .reloj1, .reloj2, .reloj3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Cronometro{
+	font-size: 3em;
+	padding: 30px;
+	background-color: rgba(255,255,255,0.1);
+	box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+	border-radius: 20px;
+
+}
+.button{
+	background-color: rgba(255,255,255,0.5);
+	display: block;
+	margin: 20px;
+	padding: 10px 40px 10px 40px;
+	border-radius: 30px;
+	border:none;
+	border-bottom: 1px solid rgba(0,0,0,0.9);
+	color: rgba(0,0,0,0.7);
+	font-size: 1.2em;
+	font-family: ubuntu;
+}
+.button:hover{
+	animation-name: bu2;
+	animation-duration: 4s;
+}
+#conte{
+	padding-top: 200px;
+	font-size: 2em;
+	margin:0 40px 20px 40px;
+}
+@keyframes bu2{
+	from{
+		background: #3a6186;
+		background: -webkit-linear-gradient(to right, #89253e, #3a6186);
+		background: linear-gradient(to right, #89253e, #3a6186);
+		color: white;
+	}
+
+}
+@keyframes bu{
+	from{
+		background-color: #2C5364;
+	}
+
+}
+@keyframes pulse {
+	from {
+		transform: scale3d(1, 1, 1);
+	}
+
+	50% {
+		transform: scale3d(1.05, 1.05, 1.05);
+	}
+
+	to {
+		transform: scale3d(1, 1, 1);
+	}
+}
